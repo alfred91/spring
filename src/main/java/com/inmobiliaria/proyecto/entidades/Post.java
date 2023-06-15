@@ -20,11 +20,20 @@ public class Post {
     private String autor;
     private boolean esImportante;
     private LocalDateTime createdAt;
-    
+    /**
+     * Constructor vacio
+     */
 	public Post() {
 		
 	}
-	
+	/**
+	 * Constructor parametrizado
+	 * @param titulo
+	 * @param contenido
+	 * @param autor
+	 * @param esImportante
+	 * @param createdAt
+	 */
 	public Post(String titulo, String contenido, String autor, boolean esImportante, LocalDateTime createdAt) {
 
 		this.titulo = titulo;

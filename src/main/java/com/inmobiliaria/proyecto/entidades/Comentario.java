@@ -18,11 +18,17 @@ public class Comentario {
 
     @ManyToOne
     private Post post;
-
+/**
+ * Constructor vacio
+ */
 	public Comentario() {
 		
 	}
-
+/**
+ * Constructor parametrizado
+ * @param contenido
+ * @param post
+ */
 	public Comentario(String contenido, Post post) {
 		
 		this.contenido = contenido;
